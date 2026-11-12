@@ -1,0 +1,23 @@
+{
+ "codigo": "LST-2026-000101",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "piso",
+ "zona": "Ruzafa",
+ "direccion": "C/ de Cuba 24, 3.º",
+ "ciudad": "València",
+ "habitaciones": 3,
+ "banos": 2,
+ "metros": 95,
+ "precio": 245000,
+ "descripcion": "Piso exterior reformado, cocina abierta y balcón a la calle.",
+ "propietario": {
+  "nombre": "Carmen Ortega Llopis",
+  "telefono": "+34600000101"
+ },
+ "captador": {
+  "nombre": "Hermes Muatetema",
+  "telefono": "+34624931947"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000101"
+}

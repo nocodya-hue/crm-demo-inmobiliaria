@@ -1,0 +1,23 @@
+{
+ "codigo": "LST-2026-000103",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "piso",
+ "zona": "Campanar",
+ "direccion": "Av. de Pío XII 40, 6.º",
+ "ciudad": "València",
+ "habitaciones": 4,
+ "banos": 2,
+ "metros": 128,
+ "precio": 335000,
+ "descripcion": "Piso familiar con garaje y trastero, junto al parque de Cabecera.",
+ "propietario": {
+  "nombre": "Lucía Ferrer Navarro",
+  "telefono": "+34600000103"
+ },
+ "captador": {
+  "nombre": "Hermes Muatetema",
+  "telefono": "+34624931947"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000103"
+}

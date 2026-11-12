@@ -1,0 +1,140 @@
+[
+ {
+  "codigo": "LST-2026-000101",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "piso",
+  "zona": "Ruzafa",
+  "direccion": "C/ de Cuba 24, 3.º",
+  "ciudad": "València",
+  "habitaciones": 3,
+  "banos": 2,
+  "metros": 95,
+  "precio": 245000,
+  "descripcion": "Piso exterior reformado, cocina abierta y balcón a la calle.",
+  "propietario": {
+   "nombre": "Carmen Ortega Llopis",
+   "telefono": "+34600000101"
+  },
+  "captador": {
+   "nombre": "Hermes Muatetema",
+   "telefono": "+34624931947"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000101"
+ },
+ {
+  "codigo": "LST-2026-000102",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "ático",
+  "zona": "Benimaclet",
+  "direccion": "C/ Barón de San Petrillo 9, ático",
+  "ciudad": "València",
+  "habitaciones": 2,
+  "banos": 1,
+  "metros": 70,
+  "precio": 189000,
+  "descripcion": "Ático con terraza de 20 m², muy luminoso y con ascensor.",
+  "propietario": {
+   "nombre": "Vicente Martí Roig",
+   "telefono": "+34600000102"
+  },
+  "captador": {
+   "nombre": "José Onami",
+   "telefono": "+34671259026"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000102"
+ },
+ {
+  "codigo": "LST-2026-000103",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "piso",
+  "zona": "Campanar",
+  "direccion": "Av. de Pío XII 40, 6.º",
+  "ciudad": "València",
+  "habitaciones": 4,
+  "banos": 2,
+  "metros": 128,
+  "precio": 335000,
+  "descripcion": "Piso familiar con garaje y trastero, junto al parque de Cabecera.",
+  "propietario": {
+   "nombre": "Lucía Ferrer Navarro",
+   "telefono": "+34600000103"
+  },
+  "captador": {
+   "nombre": "Hermes Muatetema",
+   "telefono": "+34624931947"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000103"
+ },
+ {
+  "codigo": "LST-2026-000104",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "casa",
+  "zona": "Alboraia",
+  "direccion": "C/ del Mar 15",
+  "ciudad": "Alboraia",
+  "habitaciones": 4,
+  "banos": 3,
+  "metros": 180,
+  "precio": 410000,
+  "descripcion": "Casa de dos plantas con patio, a 10 minutos de la playa de la Patacona.",
+  "propietario": {
+   "nombre": "Josep Sanchis Bou",
+   "telefono": "+34600000104"
+  },
+  "captador": {
+   "nombre": "José Onami",
+   "telefono": "+34671259026"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000104"
+ },
+ {
+  "codigo": "LST-2026-000105",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "estudio",
+  "zona": "El Carmen",
+  "direccion": "C/ de Quart 31, 2.º",
+  "ciudad": "València",
+  "habitaciones": 1,
+  "banos": 1,
+  "metros": 42,
+  "precio": 129000,
+  "descripcion": "Estudio reformado en el centro histórico, ideal para inversión.",
+  "propietario": {
+   "nombre": "Ana Beltrán Gil",
+   "telefono": "+34600000105"
+  },
+  "captador": {
+   "nombre": "Hermes Muatetema",
+   "telefono": "+34624931947"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000105"
+ },
+ {
+  "codigo": "LST-2025-000431",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "piso",
+  "zona": "La Salle",
+  "direccion": "Calle Pérez Díaz 12",
+  "ciudad": "Santa Cruz de Tenerife",
+  "habitaciones": 3,
+  "banos": 2,
+  "metros": 87.5,
+  "precio": 185000,
+  "descripcion": "Piso luminoso reformado, cocina abierta y balcón.",
+  "propietario": {
+   "nombre": "Rafael Pérez Díaz",
+   "telefono": "+34600000431"
+  },
+  "captador": {
+   "nombre": "José Onami",
+   "telefono": "+34671259026"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2025-000431"
+ }
+]

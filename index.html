@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CRM de prueba · fichas de viviendas</title>
+<style>
+  :root { --tinta: #1d2430; --suave: #5b6676; --linea: #e3e6ea; --fondo: #f6f7f9; --acento: #1f5fbf; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--tinta); background: var(--fondo); }
+  header { padding: 20px 16px 8px; max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  header p { margin: 0; color: var(--suave); font-size: 13px; }
+  main { max-width: 880px; margin: 0 auto; padding: 8px 16px 40px; display: grid; gap: 12px; }
+  .ficha { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 16px; scroll-margin-top: 12px; }
+  .ficha:target { border-color: var(--acento); box-shadow: 0 0 0 3px rgba(31, 95, 191, .15); }
+  .cab { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
+  .cod { font: 600 13px/1 ui-monospace, Menlo, monospace; color: var(--acento); }
+  .precio { font-size: 18px; font-weight: 700; }
+  h2 { font-size: 16px; margin: 6px 0 2px; }
+  .dir { color: var(--suave); margin: 0 0 10px; }
+  .datos { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 12px; color: var(--suave); font-size: 14px; }
+  .gente { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px; }
+  .gente div { background: var(--fondo); border-radius: 8px; padding: 10px 12px; }
+  .gente span { display: block; font-size: 12px; color: var(--suave); text-transform: uppercase; letter-spacing: .04em; }
+  .gente a { color: var(--tinta); }
+</style>
+</head>
+<body>
+<header>
+  <h1>CRM de prueba · viviendas</h1>
+  <p>Simulación: propietarios y teléfonos ficticios. Cada ficha se consulta también en <code>api/viviendas/&lt;código&gt;.json</code>.</p>
+</header>
+<main id="lista" aria-live="polite"></main>
+<script>
+  const eur = (n) => n.toLocaleString('es-ES') + ' €';
+  const tel = (t) => `<a href="tel:${t}">${t.replace(/^\+34(\d{3})(\d{3})(\d{3})$/, '+34 $1 $2 $3')}</a>`;
+  fetch('api/viviendas/index.json').then((r) => r.json()).then((vs) => {
+    document.getElementById('lista').innerHTML = vs.map((v) => `
+      <article class="ficha" id="${v.codigo}">
+        <div class="cab"><span class="cod">${v.codigo}</span><span class="precio">${eur(v.precio)}</span></div>
+        <h2>${v.tipo[0].toUpperCase() + v.tipo.slice(1)} en ${v.zona}</h2>
+        <p class="dir">${v.direccion} · ${v.ciudad}</p>
+        <p class="datos"><span>${v.habitaciones} hab.</span><span>${v.banos} baños</span><span>${v.metros} m²</span><span>${v.estado}</span></p>
+        <p>${v.descripcion}</p>
+        <div class="gente">
+          <div><span>Propietario</span>${v.propietario.nombre} · ${tel(v.propietario.telefono)}</div>
+          <div><span>Captada por</span>${v.captador.nombre} · ${tel(v.captador.telefono)}</div>
+        </div>
+      </article>`).join('');
+    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+  });
+</script>
+</body>
+</html>

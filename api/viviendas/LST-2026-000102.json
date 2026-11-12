@@ -1,0 +1,23 @@
+{
+ "codigo": "LST-2026-000102",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "ático",
+ "zona": "Benimaclet",
+ "direccion": "C/ Barón de San Petrillo 9, ático",
+ "ciudad": "València",
+ "habitaciones": 2,
+ "banos": 1,
+ "metros": 70,
+ "precio": 189000,
+ "descripcion": "Ático con terraza de 20 m², muy luminoso y con ascensor.",
+ "propietario": {
+  "nombre": "Vicente Martí Roig",
+  "telefono": "+34600000102"
+ },
+ "captador": {
+  "nombre": "José Onami",
+  "telefono": "+34671259026"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000102"
+}

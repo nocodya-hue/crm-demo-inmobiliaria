@@ -1,0 +1,23 @@
+{
+ "codigo": "LST-2026-000105",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "estudio",
+ "zona": "El Carmen",
+ "direccion": "C/ de Quart 31, 2.º",
+ "ciudad": "València",
+ "habitaciones": 1,
+ "banos": 1,
+ "metros": 42,
+ "precio": 129000,
+ "descripcion": "Estudio reformado en el centro histórico, ideal para inversión.",
+ "propietario": {
+  "nombre": "Ana Beltrán Gil",
+  "telefono": "+34600000105"
+ },
+ "captador": {
+  "nombre": "Hermes Muatetema",
+  "telefono": "+34624931947"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000105"
+}

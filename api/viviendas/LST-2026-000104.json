@@ -1,0 +1,23 @@
+{
+ "codigo": "LST-2026-000104",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "casa",
+ "zona": "Alboraia",
+ "direccion": "C/ del Mar 15",
+ "ciudad": "Alboraia",
+ "habitaciones": 4,
+ "banos": 3,
+ "metros": 180,
+ "precio": 410000,
+ "descripcion": "Casa de dos plantas con patio, a 10 minutos de la playa de la Patacona.",
+ "propietario": {
+  "nombre": "Josep Sanchis Bou",
+  "telefono": "+34600000104"
+ },
+ "captador": {
+  "nombre": "José Onami",
+  "telefono": "+34671259026"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000104"
+}

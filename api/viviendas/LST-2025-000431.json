@@ -1,0 +1,23 @@
+{
+ "codigo": "LST-2025-000431",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "piso",
+ "zona": "La Salle",
+ "direccion": "Calle Pérez Díaz 12",
+ "ciudad": "Santa Cruz de Tenerife",
+ "habitaciones": 3,
+ "banos": 2,
+ "metros": 87.5,
+ "precio": 185000,
+ "descripcion": "Piso luminoso reformado, cocina abierta y balcón.",
+ "propietario": {
+  "nombre": "Rafael Pérez Díaz",
+  "telefono": "+34600000431"
+ },
+ "captador": {
+  "nombre": "José Onami",
+  "telefono": "+34671259026"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2025-000431"
+}
