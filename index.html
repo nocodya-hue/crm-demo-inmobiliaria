@@ -14,7 +14,7 @@
   header p { margin: 0; color: var(--suave); font-size: 13px; }
   main { max-width: 880px; margin: 0 auto; padding: 8px 16px 40px; display: grid; gap: 12px; }
   .ficha { background: #fff; border: 1px solid var(--linea); border-radius: 10px; padding: 16px; scroll-margin-top: 12px; }
-  .ficha:target { border-color: var(--acento); box-shadow: 0 0 0 3px rgba(31, 95, 191, .15); }
+  .ficha.activa { border-color: var(--acento); box-shadow: 0 0 0 3px rgba(31, 95, 191, .15); }
   .cab { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
   .cod { font: 600 13px/1 ui-monospace, Menlo, monospace; color: var(--acento); }
   .precio { font-size: 18px; font-weight: 700; }
@@ -49,8 +49,15 @@
           <div><span>Captada por</span>${v.captador.nombre} · ${tel(v.captador.telefono)}</div>
         </div>
       </article>`).join('');
-    if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+    marcar();
   });
+  // la ficha del enlace (#código) queda resaltada y a la vista
+  function marcar() {
+    document.querySelectorAll('.ficha.activa').forEach((x) => x.classList.remove('activa'));
+    const el = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (el) { el.classList.add('activa'); el.scrollIntoView({ block: 'start' }); }
+  }
+  addEventListener('hashchange', marcar);
 </script>
 </body>
 </html>
