@@ -10,6 +10,7 @@
  "banos": 1,
  "metros": 42,
  "precio": 129000,
+ "extras": [],
  "descripcion": "Estudio reformado en el centro histórico, ideal para inversión.",
  "propietario": {
   "nombre": "Ana Beltrán Gil",

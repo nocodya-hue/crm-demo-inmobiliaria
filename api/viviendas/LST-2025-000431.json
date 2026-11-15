@@ -10,6 +10,7 @@
  "banos": 2,
  "metros": 87.5,
  "precio": 185000,
+ "extras": [],
  "descripcion": "Piso luminoso reformado, cocina abierta y balcón.",
  "propietario": {
   "nombre": "Rafael Pérez Díaz",

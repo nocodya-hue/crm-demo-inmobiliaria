@@ -10,6 +10,7 @@
  "banos": 2,
  "metros": 128,
  "precio": 335000,
+ "extras": [],
  "descripcion": "Piso familiar con garaje y trastero, junto al parque de Cabecera.",
  "propietario": {
   "nombre": "Lucía Ferrer Navarro",

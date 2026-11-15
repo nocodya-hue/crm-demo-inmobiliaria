@@ -10,6 +10,7 @@
  "banos": 3,
  "metros": 180,
  "precio": 410000,
+ "extras": [],
  "descripcion": "Casa de dos plantas con patio, a 10 minutos de la playa de la Patacona.",
  "propietario": {
   "nombre": "Josep Sanchis Bou",

@@ -11,6 +11,7 @@
   "banos": 2,
   "metros": 95,
   "precio": 245000,
+  "extras": [],
   "descripcion": "Piso exterior reformado, cocina abierta y balcón a la calle.",
   "propietario": {
    "nombre": "Carmen Ortega Llopis",
@@ -34,6 +35,7 @@
   "banos": 1,
   "metros": 70,
   "precio": 189000,
+  "extras": [],
   "descripcion": "Ático con terraza de 20 m², muy luminoso y con ascensor.",
   "propietario": {
    "nombre": "Vicente Martí Roig",
@@ -57,6 +59,7 @@
   "banos": 2,
   "metros": 128,
   "precio": 335000,
+  "extras": [],
   "descripcion": "Piso familiar con garaje y trastero, junto al parque de Cabecera.",
   "propietario": {
    "nombre": "Lucía Ferrer Navarro",
@@ -80,6 +83,7 @@
   "banos": 3,
   "metros": 180,
   "precio": 410000,
+  "extras": [],
   "descripcion": "Casa de dos plantas con patio, a 10 minutos de la playa de la Patacona.",
   "propietario": {
    "nombre": "Josep Sanchis Bou",
@@ -103,6 +107,7 @@
   "banos": 1,
   "metros": 42,
   "precio": 129000,
+  "extras": [],
   "descripcion": "Estudio reformado en el centro histórico, ideal para inversión.",
   "propietario": {
    "nombre": "Ana Beltrán Gil",
@@ -126,6 +131,7 @@
   "banos": 2,
   "metros": 87.5,
   "precio": 185000,
+  "extras": [],
   "descripcion": "Piso luminoso reformado, cocina abierta y balcón.",
   "propietario": {
    "nombre": "Rafael Pérez Díaz",
@@ -136,5 +142,34 @@
    "telefono": "+34624931947"
   },
   "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2025-000431"
+ },
+ {
+  "codigo": "LST-2026-000106",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "piso",
+  "zona": "Cánovas",
+  "direccion": "C/ de Salamanca 22, 5.º",
+  "ciudad": "València",
+  "habitaciones": 6,
+  "banos": 3,
+  "metros": 214,
+  "precio": 1395000,
+  "extras": [
+   "ascensor",
+   "terraza",
+   "garaje",
+   "portería"
+  ],
+  "descripcion": "Piso señorial en Cánovas, exterior a dos calles, con terraza de 20 m², seis dormitorios, tres baños y plaza de garaje. Finca con portería y ascensor.",
+  "propietario": {
+   "nombre": "Marta Llorens Peris",
+   "telefono": "+34600000106"
+  },
+  "captador": {
+   "nombre": "Silvestre",
+   "telefono": "+34624931947"
+  },
+  "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000106"
  }
 ]

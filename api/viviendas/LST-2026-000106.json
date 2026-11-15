@@ -1,0 +1,29 @@
+{
+ "codigo": "LST-2026-000106",
+ "estado": "disponible",
+ "operacion": "venta",
+ "tipo": "piso",
+ "zona": "Cánovas",
+ "direccion": "C/ de Salamanca 22, 5.º",
+ "ciudad": "València",
+ "habitaciones": 6,
+ "banos": 3,
+ "metros": 214,
+ "precio": 1395000,
+ "extras": [
+  "ascensor",
+  "terraza",
+  "garaje",
+  "portería"
+ ],
+ "descripcion": "Piso señorial en Cánovas, exterior a dos calles, con terraza de 20 m², seis dormitorios, tres baños y plaza de garaje. Finca con portería y ascensor.",
+ "propietario": {
+  "nombre": "Marta Llorens Peris",
+  "telefono": "+34600000106"
+ },
+ "captador": {
+  "nombre": "Silvestre",
+  "telefono": "+34624931947"
+ },
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000106"
+}

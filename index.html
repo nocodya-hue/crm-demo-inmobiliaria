@@ -42,7 +42,7 @@
         <div class="cab"><span class="cod">${v.codigo}</span><span class="precio">${eur(v.precio)}</span></div>
         <h2>${v.tipo[0].toUpperCase() + v.tipo.slice(1)} en ${v.zona}</h2>
         <p class="dir">${v.direccion} · ${v.ciudad}</p>
-        <p class="datos"><span>${v.habitaciones} hab.</span><span>${v.banos} baños</span><span>${v.metros} m²</span><span>${v.estado}</span></p>
+        <p class="datos"><span>${v.habitaciones} hab.</span><span>${v.banos} baños</span><span>${v.metros} m²</span>${(v.extras || []).map((x) => `<span>${x}</span>`).join('')}<span>${v.estado}</span></p>
         <p>${v.descripcion}</p>
         <div class="gente">
           <div><span>Propietario</span>${v.propietario.nombre} · ${tel(v.propietario.telefono)}</div>

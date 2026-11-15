@@ -10,6 +10,7 @@
  "banos": 2,
  "metros": 95,
  "precio": 245000,
+ "extras": [],
  "descripcion": "Piso exterior reformado, cocina abierta y balcón a la calle.",
  "propietario": {
   "nombre": "Carmen Ortega Llopis",
