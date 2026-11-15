@@ -12,7 +12,13 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 def ficha_publica(v):
     """Lo que devuelve la API para una vivienda (lo que lee S3)."""
     return {k: v[k] for k in ('codigo', 'estado', 'operacion', 'tipo', 'zona', 'direccion', 'ciudad', 'habitaciones', 'banos',
-                              'metros', 'precio', 'extras', 'descripcion', 'propietario', 'captador')} | {'ficha': f"{BASE}/#{v['codigo']}"}
+                              'metros', 'precio', 'extras', 'descripcion', 'propietario', 'captador')} | {'ficha': f"{BASE}/#{v['codigo']}",
+            'fotos': fotos_publicas(v)}
+
+
+def fotos_publicas(v):
+    """Fotos de la vivienda (de ejemplo, de Unsplash): 1.jpg = 1600 px; la página usa la versión de 720 px (-m.jpg)."""
+    return [{'url': f"{BASE}/{f['archivo']}", 'archivo': f['archivo'], 'pie': f['pie']} for f in v.get('fotos', [])]
 
 
 def generar():

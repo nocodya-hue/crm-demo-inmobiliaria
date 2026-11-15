@@ -20,5 +20,27 @@
   "nombre": "Silvestre",
   "telefono": "+34624931947"
  },
- "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000102"
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000102",
+ "fotos": [
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000102/1.jpg",
+   "archivo": "fotos/LST-2026-000102/1.jpg",
+   "pie": "Terraza de 20 m²"
+  },
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000102/2.jpg",
+   "archivo": "fotos/LST-2026-000102/2.jpg",
+   "pie": "Salón con salida a la terraza"
+  },
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000102/3.jpg",
+   "archivo": "fotos/LST-2026-000102/3.jpg",
+   "pie": "Dormitorio"
+  },
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000102/4.jpg",
+   "archivo": "fotos/LST-2026-000102/4.jpg",
+   "pie": "Baño"
+  }
+ ]
 }

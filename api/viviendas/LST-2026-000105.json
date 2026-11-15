@@ -20,5 +20,27 @@
   "nombre": "Silvestre",
   "telefono": "+34624931947"
  },
- "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000105"
+ "ficha": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/#LST-2026-000105",
+ "fotos": [
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000105/1.jpg",
+   "archivo": "fotos/LST-2026-000105/1.jpg",
+   "pie": "Estudio"
+  },
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000105/2.jpg",
+   "archivo": "fotos/LST-2026-000105/2.jpg",
+   "pie": "Zona de estar"
+  },
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000105/3.jpg",
+   "archivo": "fotos/LST-2026-000105/3.jpg",
+   "pie": "Zona de noche"
+  },
+  {
+   "url": "https://nocodya-hue.github.io/crm-demo-inmobiliaria/fotos/LST-2026-000105/4.jpg",
+   "archivo": "fotos/LST-2026-000105/4.jpg",
+   "pie": "Fachada en el centro histórico"
+  }
+ ]
 }

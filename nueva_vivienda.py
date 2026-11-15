@@ -10,9 +10,11 @@ import argparse, json, os, re, subprocess, sys, tempfile, time, urllib.request, 
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from datos import AQUI, BASE, ficha_publica, generar
+from datos import AQUI, BASE, ficha_publica, fotos_publicas, generar
 
-WEBHOOK_S4 = 'https://hook.eu2.make.com/steqhi98c35j345t1sdbcabi99yb2a9c'   # S4 «CRM nueva vivienda» (espera {"value": "<json>"})
+WEBHOOK_S4 = 'https://hook.eu2.make.com/steqhi98c35j345t1sdbcabi99yb2a9c'   # S4 «CRM nueva vivienda»
+# El webhook de S4 está en «JSON pass-through»: entrega el cuerpo tal cual en {{1.value}} y S4·5 lo parsea. Por eso se manda
+# la vivienda SIN envolver. (Hasta el 15-nov se mandaba {"value": "<json>"} y S4 recibía todos los campos vacíos.)
 REPO = 'https://github.com/nocodya-hue/crm-demo-inmobiliaria.git'
 GH = os.path.expanduser('~/.local/bin/gh')
 SILVESTRE = {'nombre': 'Silvestre', 'telefono': '+34624931947'}
@@ -31,7 +33,9 @@ def payload_crm(v):
     return {'listing_id': v['codigo'], 'operation': v['operacion'], 'type': v['tipo'], 'price': v['precio'], 'currency': 'EUR',
             'district': v['zona'], 'bedrooms': v['habitaciones'], 'bathrooms': v['banos'], 'area_m2': v['metros'],
             'address': {'street': v['calle'], 'number': v['numero'], 'city': v['ciudad'], 'province': 'Valencia', 'country': 'ES'},
-            'features': v['extras'], 'photos': [], 'description': v['descripcion'], 'public_url': f"{BASE}/#{v['codigo']}",
+            'features': v['extras'],
+            'photos': [{'url': f['url'], 'order': n} for n, f in enumerate(fotos_publicas(v), 1)],   # S4·2 las guarda en Airtable
+            'description': v['descripcion'], 'public_url': f"{BASE}/#{v['codigo']}",
             'source': 'crm_demo', 'created_at': ahora, 'updated_at': ahora}
 
 
@@ -80,14 +84,14 @@ def main():
     p = payload_crm(v)
     if o.prueba:
         print('FICHA (API):', json.dumps(ficha_publica(v), ensure_ascii=False, indent=1))
-        print('A S4:', json.dumps({'value': json.dumps(p, ensure_ascii=False)}, ensure_ascii=False)[:600], '…')
+        print('A S4:', json.dumps(p, ensure_ascii=False)[:600], '…')
         return
     vs.append(v); json.dump(vs, open(ruta, 'w'), ensure_ascii=False, indent=1)
     generar()
     url, seg = publicar(cod)
     print(f'{cod} online en ~{seg} s → {url}')
     if o.enviar:
-        req = urllib.request.Request(WEBHOOK_S4, data=json.dumps({'value': json.dumps(p, ensure_ascii=False)}).encode(),
+        req = urllib.request.Request(WEBHOOK_S4, data=json.dumps(p, ensure_ascii=False).encode(),
                                      headers={'Content-Type': 'application/json'}, method='POST')
         with urllib.request.urlopen(req, timeout=20) as r:
             print('Enviada a S4:', r.status, r.read().decode()[:100])

@@ -22,7 +22,29 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2026-000101/1.jpg",
+    "pie": "Salón",
+    "unsplash": "photo-1600493505873-cddd69453072"
+   },
+   {
+    "archivo": "fotos/LST-2026-000101/2.jpg",
+    "pie": "Cocina abierta con comedor",
+    "unsplash": "photo-1689043528099-2ba014dd7c64"
+   },
+   {
+    "archivo": "fotos/LST-2026-000101/3.jpg",
+    "pie": "Dormitorio principal",
+    "unsplash": "photo-1560448075-57d0285fc59b"
+   },
+   {
+    "archivo": "fotos/LST-2026-000101/4.jpg",
+    "pie": "Balcón a la calle",
+    "unsplash": "photo-1693585576674-2e1b7166f583"
+   }
+  ]
  },
  {
   "codigo": "LST-2026-000102",
@@ -47,7 +69,29 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2026-000102/1.jpg",
+    "pie": "Terraza de 20 m²",
+    "unsplash": "photo-1493246318656-5bfd4cfb29b8"
+   },
+   {
+    "archivo": "fotos/LST-2026-000102/2.jpg",
+    "pie": "Salón con salida a la terraza",
+    "unsplash": "photo-1612419299101-6c294dc2901d"
+   },
+   {
+    "archivo": "fotos/LST-2026-000102/3.jpg",
+    "pie": "Dormitorio",
+    "unsplash": "photo-1630699375019-c334927264df"
+   },
+   {
+    "archivo": "fotos/LST-2026-000102/4.jpg",
+    "pie": "Baño",
+    "unsplash": "photo-1668911094844-527491335108"
+   }
+  ]
  },
  {
   "codigo": "LST-2026-000103",
@@ -72,7 +116,29 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2026-000103/1.jpg",
+    "pie": "Salón",
+    "unsplash": "photo-1554995207-c18c203602cb"
+   },
+   {
+    "archivo": "fotos/LST-2026-000103/2.jpg",
+    "pie": "Cocina",
+    "unsplash": "photo-1596205250168-c3583813eea0"
+   },
+   {
+    "archivo": "fotos/LST-2026-000103/3.jpg",
+    "pie": "Comedor",
+    "unsplash": "photo-1617806118233-18e1de247200"
+   },
+   {
+    "archivo": "fotos/LST-2026-000103/4.jpg",
+    "pie": "Dormitorio infantil",
+    "unsplash": "photo-1771862956412-6ce9a725eb22"
+   }
+  ]
  },
  {
   "codigo": "LST-2026-000104",
@@ -97,7 +163,29 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2026-000104/1.jpg",
+    "pie": "Fachada",
+    "unsplash": "photo-1617141372324-a37d164e08ae"
+   },
+   {
+    "archivo": "fotos/LST-2026-000104/2.jpg",
+    "pie": "Patio",
+    "unsplash": "photo-1689958270296-0874646defbf"
+   },
+   {
+    "archivo": "fotos/LST-2026-000104/3.jpg",
+    "pie": "Salón",
+    "unsplash": "photo-1649083048381-520a5b3d91ff"
+   },
+   {
+    "archivo": "fotos/LST-2026-000104/4.jpg",
+    "pie": "Terraza",
+    "unsplash": "photo-1725940896111-8df87cee4145"
+   }
+  ]
  },
  {
   "codigo": "LST-2026-000105",
@@ -122,7 +210,29 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2026-000105/1.jpg",
+    "pie": "Estudio",
+    "unsplash": "photo-1522708323590-d24dbb6b0267"
+   },
+   {
+    "archivo": "fotos/LST-2026-000105/2.jpg",
+    "pie": "Zona de estar",
+    "unsplash": "photo-1502672260266-1c1ef2d93688"
+   },
+   {
+    "archivo": "fotos/LST-2026-000105/3.jpg",
+    "pie": "Zona de noche",
+    "unsplash": "photo-1585128792103-0b591f96512e"
+   },
+   {
+    "archivo": "fotos/LST-2026-000105/4.jpg",
+    "pie": "Fachada en el centro histórico",
+    "unsplash": "photo-1713121577029-bf271baec1c5"
+   }
+  ]
  },
  {
   "codigo": "LST-2025-000431",
@@ -147,7 +257,29 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2025-000431/1.jpg",
+    "pie": "Salón luminoso",
+    "unsplash": "photo-1665249934445-1de680641f50"
+   },
+   {
+    "archivo": "fotos/LST-2025-000431/2.jpg",
+    "pie": "Cocina abierta",
+    "unsplash": "photo-1630699376331-7d70d7a3e417"
+   },
+   {
+    "archivo": "fotos/LST-2025-000431/3.jpg",
+    "pie": "Dormitorio",
+    "unsplash": "photo-1612320583049-eabe3c21bd94"
+   },
+   {
+    "archivo": "fotos/LST-2025-000431/4.jpg",
+    "pie": "Balcón",
+    "unsplash": "photo-1774685110793-e427dfa87467"
+   }
+  ]
  },
  {
   "codigo": "LST-2026-000106",
@@ -177,6 +309,28 @@
   "captador": {
    "nombre": "Silvestre",
    "telefono": "+34624931947"
-  }
+  },
+  "fotos": [
+   {
+    "archivo": "fotos/LST-2026-000106/1.jpg",
+    "pie": "Salón",
+    "unsplash": "photo-1592229506151-845940174bb0"
+   },
+   {
+    "archivo": "fotos/LST-2026-000106/2.jpg",
+    "pie": "Fachada de la finca",
+    "unsplash": "photo-1736463805407-37cf54f94594"
+   },
+   {
+    "archivo": "fotos/LST-2026-000106/3.jpg",
+    "pie": "Comedor",
+    "unsplash": "photo-1773754624815-17c169b8bb6b"
+   },
+   {
+    "archivo": "fotos/LST-2026-000106/4.jpg",
+    "pie": "Baño principal",
+    "unsplash": "photo-1507652313519-d4e9174996dd"
+   }
+  ]
  }
 ]
