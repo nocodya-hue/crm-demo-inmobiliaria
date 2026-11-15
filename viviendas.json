@@ -332,5 +332,33 @@
     "unsplash": "photo-1507652313519-d4e9174996dd"
    }
   ]
+ },
+ {
+  "codigo": "LST-2026-000107",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "piso",
+  "zona": "Cánovas",
+  "calle": "C/ de Císcar",
+  "numero": "15, 2.º",
+  "direccion": "C/ de Císcar 15, 2.º",
+  "ciudad": "València",
+  "habitaciones": 3,
+  "banos": 2,
+  "metros": 96,
+  "precio": 245000,
+  "extras": [
+   "ascensor",
+   "balcón"
+  ],
+  "descripcion": "Piso exterior en Cánovas, segunda planta con ascensor: 3 dormitorios, 2 baños, salón con balcón y cocina reformada.",
+  "propietario": {
+   "nombre": "Toni Bataller Gómez",
+   "telefono": "+34600000107"
+  },
+  "captador": {
+   "nombre": "Silvestre",
+   "telefono": "+34624931947"
+  }
  }
 ]
