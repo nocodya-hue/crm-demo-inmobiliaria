@@ -360,5 +360,33 @@
    "nombre": "Silvestre",
    "telefono": "+34624931947"
   }
+ },
+ {
+  "codigo": "LST-2026-000108",
+  "estado": "disponible",
+  "operacion": "venta",
+  "tipo": "piso",
+  "zona": "Extramurs",
+  "calle": "C/ de Ángel Guimerá",
+  "numero": "31, 2.º",
+  "direccion": "C/ de Ángel Guimerá 31, 2.º",
+  "ciudad": "València",
+  "habitaciones": 2,
+  "banos": 1,
+  "metros": 74,
+  "precio": 38000,
+  "extras": [
+   "terraza",
+   "balcón"
+  ],
+  "descripcion": "Piso reformado en Extramurs: 2 habitaciones, 1 baño y 74 m², con terraza y balcón. Acaba de entrar en nuestra cartera.",
+  "propietario": {
+   "nombre": "Isabel Navarro Climent",
+   "telefono": "+34600000108"
+  },
+  "captador": {
+   "nombre": "Silvestre",
+   "telefono": "+34624931947"
+  }
  }
 ]
